@@ -27,7 +27,7 @@ public class homework9 {
 5
  */
         int n=5;
-
+        //3
         for (int i = n; i >= 1; i--)
         {
             for (int j = i; j <= n; j++)
