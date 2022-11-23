@@ -1,3 +1,5 @@
+package hmmm;
+
 public class homework9 {
     public static void main(String[] args) {
 
@@ -27,7 +29,7 @@ public class homework9 {
 5
  */
         int n=5;
-        //3
+        //334
         for (int i = n; i >= 1; i--)
         {
             for (int j = i; j <= n; j++)
