@@ -27,5 +27,12 @@ public class BouquetList {
               System.out.println(bouquetOfFlowers.getName());
 
     }
+    public void sortByFreshness(){
+        System.out.printf("sorted flower freshness");
+        for(bouquetOfFlowers bouquetOfFlowers:BouquetList) {
+                if (bouquetOfFlowers.getFreshness()>2 )
+                    System.out.println(bouquetOfFlowers.getName());
+        }
+    }
 
 }

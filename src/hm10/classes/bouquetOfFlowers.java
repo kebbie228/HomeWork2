@@ -13,13 +13,22 @@ public abstract class bouquetOfFlowers {
     private String color;
     private  boolean condition;// состояние
     private double lengths;
-
-    public bouquetOfFlowers(String name,double price, String color, boolean condition, double lengths) {
+  private int freshness;//0-3
+    public bouquetOfFlowers(String name,double price, String color, boolean condition, double lengths,int freshness) {
         this.name=name;
         this.price = price;
         this.color = color;
         this.condition = condition;
         this.lengths = lengths;
+        this.freshness = freshness;
+    }
+
+    public int getFreshness() {
+        return freshness;
+    }
+
+    public void setFreshness(int freshness) {
+        this.freshness = freshness;
     }
 
     public String getName() {
@@ -70,6 +79,7 @@ public abstract class bouquetOfFlowers {
                 ", color='" + color + '\'' +
                 ", condition=" + condition +
                 ", lengths=" + lengths +
+                ", freshness=" + freshness +
                 '}';
     }
 

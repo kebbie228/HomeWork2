@@ -3,15 +3,15 @@ package hm10.classes;
 public class mainBouquet {
     public static void main(String[] args) {
 
-        rose rose1 = new rose("rose1",250,"red", true, 150);
-        rose rose2 = new rose("rose2",300,"white", true, 150);
-        rose rose3 = new rose("rose3",300,"white", true, 200);
-        peonie peonie1 = new peonie("peonie1",500,"orange", false, 150);
-        peonie peonie2 = new peonie("peonie2",700,"pink", true, 150);
-        peonie peonie3 = new peonie("peonie3",950,"grey", false, 200);
-        gladiolus gladiolus1 = new gladiolus("gladiolus1",200,"white", true, 100);
-        gladiolus gladiolus2 = new gladiolus("gladiolus2",150,"red", true, 100);
-        gladiolus gladiolus3 = new gladiolus("gladiolus3",200,"blue", false, 100);
+        rose rose1 = new rose("rose1",250,"red", true, 150,3);
+        rose rose2 = new rose("rose2",300,"white", true, 150,3);
+        rose rose3 = new rose("rose3",300,"white", true, 200,2);
+        peonie peonie1 = new peonie("peonie1",500,"orange", false, 150,3);
+        peonie peonie2 = new peonie("peonie2",700,"pink", true, 150,0);
+        peonie peonie3 = new peonie("peonie3",950,"grey", false, 200,1);
+        gladiolus gladiolus1 = new gladiolus("gladiolus1",200,"white", true, 100,3);
+        gladiolus gladiolus2 = new gladiolus("gladiolus2",150,"red", true, 100,2);
+        gladiolus gladiolus3 = new gladiolus("gladiolus3",200,"blue", false, 100,1);
 
     BouquetList bouquetList=new BouquetList();
         bouquetList.addFlower(rose1);
