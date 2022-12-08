@@ -1,6 +1,8 @@
 package hm10.classes;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class BouquetList {
@@ -26,6 +28,12 @@ public class BouquetList {
           if(a<bouquetOfFlowers.getLengths() && b>bouquetOfFlowers.getLengths())
               System.out.println(bouquetOfFlowers.getName());
 
+    }
+    public void sortByFreshness(){
+        System.out.println("sorted flower by freshness");
+        Collections.sort(BouquetList, Comparator.comparing(bouquetOfFlowers::getFreshness));
+        for(bouquetOfFlowers bouquetOfFlowers:BouquetList)
+            System.out.println(bouquetOfFlowers.toString());
     }
 
 }
