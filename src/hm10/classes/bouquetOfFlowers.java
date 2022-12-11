@@ -82,7 +82,9 @@ public abstract class bouquetOfFlowers {
                 ", freshness=" + freshness +
                 '}';
     }
-
+public void printfFlower(){
+    System.out.println("i am flower");
+}
     }
 
 
