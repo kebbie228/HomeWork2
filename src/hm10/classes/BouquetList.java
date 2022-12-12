@@ -27,5 +27,16 @@ public class BouquetList {
               System.out.println(bouquetOfFlowers.getName());
 
     }
+    /*
+    public void sortByFlower(){
+        System.out.printf("flowers in lengths range (%f,%f)\n",a,b);
+        for(bouquetOfFlowers bouquetOfFlowers:BouquetList)
+            if(a<bouquetOfFlowers.getLengths() && b>bouquetOfFlowers.getLengths())
+                System.out.println(bouquetOfFlowers.getName());
+
+    }
+    
+     */
+
 
 }
