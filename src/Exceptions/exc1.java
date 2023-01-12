@@ -3,8 +3,9 @@ package Exceptions;
 import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
-
+    /*
 public class exc1 {
+
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         Random random=new Random();
@@ -35,6 +36,6 @@ public class exc1 {
            }
         }
 
-
     }
 }
+        */

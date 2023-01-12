@@ -6,10 +6,7 @@ import java.nio.file.
 import java.util.Random;
 public class exc6 {
     public static void main(String[] args) throws IOException {
-        XmlReader xmlReader=new XmlReader();
 
-
-        xmlReader.read();
 
     }
 }
