@@ -16,7 +16,7 @@ public class exc2 {
 positiveNumber(x);
 bigNumber(x);
     }
-    //непроверяемые исключения такие System.out.println("Write int number!");
+    //непроверяемые исключения такие через трай кэтч {System.out.println("Write int number!");}
     // или такие  if(x>100) throw new BigNumberException ("Your number more than 100 ");
 
     static void positiveNumber(int x) throws OppositeException  {

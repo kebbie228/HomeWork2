@@ -31,7 +31,7 @@ public class mainBouquet {
         bouquetList.getTotalPrice();//цена за букет
 
         bouquetList.findFlower(50,110); // диапазон длины стебеля
-        bouquetList. sortByFreshness();
+      //  bouquetList. sortByFreshness();
 
        
     }
